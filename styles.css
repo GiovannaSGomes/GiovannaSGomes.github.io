@@ -4,57 +4,89 @@ html, body {
           }
 
           body {
-              background:rgb(123,104,238);
+              background:rgb(252, 255, 255);
           }
 
           article, aside, section, header, footer, nav {
               display:block;
           }
 
-        /*  main {
-            width: 960px;
-            margin:0 auto;
-            box-shadow:0 0 10px #333;
-            background: #fff;
-          }*/
 
           header {
             width: 960px;
-            height:300px;
-            background: #238;
+            height:250px;
+            background: rgb(29, 245, 227);
+            margin-top: 50px;
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 50px;
+            border-color: rgb(0,0,0);
+            border-width: 1px;
+            border-style: solid;
 
           }
+          #titulo{
+            width: 400px;
+            height:100px;
+            background-color:rgb(255,255,2550);
+            margin-top: 200px;
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 50px;
+            border-color: rgb(0,0,0);
+            border-width: 1px;
+            border-style: solid;
 
+          }
           nav {
             width: 960px;
             height: 60px;
-            background: #b28500;
+            background: (29, 245, 227);
           }
 
-        /*  .conteudo {
-            float: left;
-            width: 640px;
-            height: 350px;
-            background-color: #ffd24d;
-            margin-top: 10px;
-            margin-bottom: 10px;
-          }
-
-          .apoio {
-            float: right;
-            width: 310px;
-            height: 350px;
-            background-color: #dddddd;
-            margin-top: 10px;
-          }
-
-          footer {
-            width: 960px;
-            height: 40px;
-            background-color: #999999;
-            clear: both;
-          }*/
           p{
-            font-family: sans-serif;
-            color:rgb(0,191,255);
-            font-size:5.5em ;
+            font-family: 'Indie Flower', cursive;
+            color:rgb(230, 101, 208);
+            font-size:3.5em ;
+            margin-top: 0px;
+            margin-left: 75px;
+            margin-right: auto;
+          }
+          h1{
+            font-family: 'Indie Flower', cursive;
+            color:rgb(0, 0,0);
+            font-size:1.0em ;
+            margin-top: -65px;
+            margin-left:190px
+
+          }
+
+                  /*  .conteudo {
+                      float: left;
+                      width: 640px;
+                      height: 350px;
+                      background-color: #ffd24d;
+                      margin-top: 10px;
+                      margin-bottom: 10px;
+                    }
+
+                    .apoio {
+                      float: right;
+                      width: 310px;
+                      height: 350px;
+                      background-color: #dddddd;
+                      margin-top: 10px;
+                    }
+
+                    footer {
+                      width: 960px;
+                      height: 40px;
+                      background-color: #999999;
+                      clear: both;
+                    }*/
+                    /*  main {
+                        width: 960px;
+                        margin:0 auto;
+                        box-shadow:0 0 10px #333;
+                        background: #fff;
+                      }*/
