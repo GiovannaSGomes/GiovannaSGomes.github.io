@@ -47,7 +47,7 @@ html, body {
           }
 
           p{
-            font-family: 'Indie Flower', cursive;
+            font-family: 'Indie Flower',  'comic sans';
             color:rgb(230, 101, 208);
             font-size:3.5em ;
             margin-top: 0px;
@@ -55,7 +55,7 @@ html, body {
             margin-right: auto;
           }
           h1{
-            font-family: 'Indie Flower', cursive;
+            font-family: 'Indie Flower', 'comic sans';
             color:rgb(0, 0,0);
             font-size:1.0em ;
             margin-top: -65px;
@@ -86,7 +86,7 @@ html, body {
               background-color:rgb(29, 245, 227);
               color: rgb(0,0,0);
               text-decoration: none;
-              font-family: 'Indie Flower', cursive;
+              font-family: 'Indie Flower',  'comic sans';
               font-size:1.5em ;
 
 
