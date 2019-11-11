@@ -1,6 +1,4 @@
-
-
-html, body {
+  html, body {
               margin:0;
               padding:0;
           }
@@ -47,7 +45,7 @@ html, body {
           }
 
           p{
-            font-family: 'Indie Flower',  'comic sans';
+            font-family: 'Indie Flower', cursive;
             color:rgb(230, 101, 208);
             font-size:3.5em ;
             margin-top: 0px;
@@ -55,7 +53,7 @@ html, body {
             margin-right: auto;
           }
           h1{
-            font-family: 'Indie Flower', 'comic sans';
+            font-family: 'Indie Flower', cursive;
             color:rgb(0, 0,0);
             font-size:1.0em ;
             margin-top: -65px;
@@ -86,7 +84,7 @@ html, body {
               background-color:rgb(29, 245, 227);
               color: rgb(0,0,0);
               text-decoration: none;
-              font-family: 'Indie Flower',  'comic sans';
+              font-family: 'Indie Flower', cursive;
               font-size:1.5em ;
 
 
@@ -117,6 +115,7 @@ html, body {
             clear: both;
             padding: 0px;
             margin-bottom:50px;
+
             }
             #footer ul li{
 
@@ -124,7 +123,6 @@ html, body {
                 list-style:none;
                 padding:50px;
                 padding-left: 10px;
-                margin-right: auto;
-                margin-left: auto;
+                overflow: auto;
 
             }
