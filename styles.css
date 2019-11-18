@@ -60,7 +60,7 @@
             margin-left:190px
 
           }
-          #menu ul li { display: inline; }
+          /* #menu ul li { display: inline; }
 
           #menu ul {
               padding:60px;
@@ -89,7 +89,7 @@
 
 
 
-          }
+          }*/
           #conteudo{
             float: left;
             width: 640px;
@@ -98,10 +98,10 @@
             margin-top: 10px;
             margin-bottom: 10px;
           }
-          #menu ul li a:hover {
+          /* #menu ul li a:hover {
                 background-color:rgb(61, 179, 169);
                 color:rgb(230, 101, 208);
-            }
+            } */
             footer {
             width: 960px;
             height:250px;
