@@ -4,7 +4,11 @@
       <title>My Portifolio</title>
       <link rel="stylesheet" type="text/css" href="styles.css">
       <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+      
     </head>
+    <style>
+      	.fotoSlide{display: none}
+      </style>
     <body>
       <header>
         <div id="titulo">
@@ -22,13 +26,37 @@
             </nav>
         </div>
       </header>
-      <section>
-        <div id="Conteudo">
-          <canvas width="940px" height="600px">
-          <h1>Em breve!</h1>
-          </canvas>
-        </div>
-      </section>
+      <h2>Slide de Fotos Minhas!</h2>
+          <div class="fotoSlide">
+          	<img src="fotos/1.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/2.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/3.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/4.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/5.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/6.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/7.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/8.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+          <div class="fotoSlide">
+          	<img src="fotos/9.jpg" style="max-width: 50%; max-height: 500px">
+          </div>
+         <div id="barra">
+
+         </div>
       <footer>
         <div id="footer">
           <ul>
@@ -39,5 +67,20 @@
           </ul>
         </div>
       </footer>
+        <script>
+    	var index=0;
+    	carrocel();
+    	function carrocel(){
+    		var i;
+    		var x = document.getElementsByClassName("fotoSlide");
+    		for(i=0; i < x.length; i++){
+    			x[i].style.display = "none";
+    		}
+    		index++;
+    		if(index > x.length){index = 1}
+    		x[index-1].style.display="block";
+    		setTimeout(carrocel,3000);
+    	}
+        </script>
     </body>
   </html>
